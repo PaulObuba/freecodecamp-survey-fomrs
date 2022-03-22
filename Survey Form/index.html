@@ -1,0 +1,71 @@
+<!DUCTYPE>
+ <html>
+  <head>
+   <title>Survey Form</title>
+   <link rel='stylesheet' href='style.css' />
+  </head>
+  
+  <body>
+   <div class='container'>
+    <header>
+     <h1>Survey Form</h1>
+    </header>
+	
+    <form>
+	 <div>
+	  <p class='discription'>Let us know how we can improve freeCodeCamp</p>
+	 </div>
+	  <div>
+	   <label for='name'>*Name:</label>
+	     <input type='name' id='name' name='name' placeholder='Enter your Name' class='input-form' required>
+	  </div>
+      <div>	  
+	   <label for='email'>*Email:</label> 
+         <input type='email' id='email' name='email' placeholder='Enter you Email' class='input-form' required>
+	  </div>	
+      <div>	  
+       <label for='number'>*Age:</label>	
+         <input type='number' id='number' name='number' min='16' max='99' placeholder='Enter you Age' class='input-form'>	
+	  </div>	  
+
+	 <div>
+      <p>Which option best describes your current role?</p>
+	  <select class='input-form'>
+	    <option value='student'>Student</option>
+	   <option value='full-time-job'>Full-time Job</option>
+	   <option value='per-time-job'>Per-time Job</option>
+	   <option value='prefer-not-to-say'>Prefer not to say</option>
+	   <option value='other'>Other</option>
+	  </select>
+	 </div> 
+	 
+	 <div>
+	  <p>How likely is that you would recommend freeCodeCamp?:</p>
+	    <label>
+	      <input type='radio' id='definitely' name='radio' class='input-radio'>Definitely
+	    </label>
+	    <label>
+	      <input type='radio' id='maybe' name='radio' class='input-radio'>Maybe
+	    </label>
+	    <label>
+	      <input type='radio' id='not-sure' name='radio' class='input-radio'>Not sure
+	    </label>
+	 </div>
+	 
+	 <div>
+	  <p>What Do you like most in FCC:</p>
+	  <select class='input-form'>
+	     <option disabled selected value>Select an Option</option>
+	     <option value='challenges'>Challenges</option>
+		 <option value='projects'>Projects</option>
+		 <option value='community'>Community</option>
+		 <option value='open-source'>Open Source</option>
+	  </select>
+	 </div>
+	  <button value='submit' id='submit' class='input-form'>Submit</button>
+	 <div>
+	 
+	 </div>
+	</form>
+   </div> 
+ 

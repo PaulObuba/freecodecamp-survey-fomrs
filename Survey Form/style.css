@@ -1,0 +1,72 @@
+body{
+ font-family: 'Poppins', sans-serif;
+ font-size: 18px;
+ line-height: 2;
+ background-color: rgb(255, 182, 193);
+ color: black;
+ margin: 0;
+}
+h1 {
+ font-style: italic;
+ font-family: monospace;
+ font-size: 19;
+ line-height: 2;
+ text-align: center;
+ padding: 30px;
+ margin: 0 auto;
+}
+p {
+ font-family: aria black;
+ font-size: 17;
+ line-height: 2;
+}
+label {
+ font-size: 15px;
+ display: flex;
+ align-items: center; 
+}
+input,select,textarea,button {
+ border: 2px solid black;
+ border-radius: 4px;
+ background-color: white;	
+ font-size: 15px;
+ padding-left: 20px;
+ margin: 7px;
+}
+form {
+ background-color: rgb(255, 240, 240);
+ border: 1px solid black;
+ border-radius: 10px;
+ box-shadow: 5px 10px 8px 5px rgba(40, 40, 40, 0.5);
+ max-width: 800px; 
+ padding: 20px 30px;
+ margin: 20px autopx;
+}
+.container {
+ width: 100%;
+ background-color: rgb(255, 192, 203);
+ margin: auto;
+}
+@media (min-width: 768px) {
+  .container {
+	max-width: 800px; 
+  }
+}
+.discription {
+ font-family: aria black;
+text-align: center;
+}   
+.input-form {
+ height: 40px;
+ width: 75%;	
+}
+button {
+ color: white;
+ background-color:  rgb(255, 182, 193);
+ font-size: 18px;
+ width: 100%;
+ cursor: pointer;
+}
+#submit {
+  width: 100%;
+}
